@@ -1,0 +1,16 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Tarefa</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+    <ion-input [(ngModel)]="texto"></ion-input>
+<p>{{texto}}</p>
+<button ion-button (click)="getTexto()">{{texto}}</button>
+
+</ion-content>
